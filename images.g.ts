@@ -3,21 +3,6 @@ namespace myImages {
 
     helpers._registerFactory("image", function(name: string) {
         switch(helpers.stringTrim(name)) {
-            case "image1":
-            case "NUM_1":return img`
-1 1 1 1 1 1 1 1 1 1 1 1 
-1 2 2 2 2 2 2 2 2 2 2 1 
-1 2 2 2 2 c c 2 2 2 2 1 
-1 2 2 2 c c c 2 2 2 2 1 
-1 2 2 2 c c c 2 2 2 2 1 
-1 2 2 2 2 c c 2 2 2 2 1 
-1 2 2 2 2 c c 2 2 2 2 1 
-1 2 2 2 2 c c 2 2 2 2 1 
-1 2 2 2 2 c c 2 2 2 2 1 
-1 2 2 2 c c c c 2 2 2 1 
-1 2 2 2 c c c c 2 2 2 1 
-1 1 1 1 1 1 1 1 1 1 1 1 
-`;
             case "image2":
             case "NUM_2":return img`
 1 1 1 1 1 1 1 1 1 1 1 1 
@@ -831,6 +816,21 @@ namespace myImages {
 171111111777777777777777777771111117111111111171
 177777777777777777777777777777777777777777777771
 111111111111111111111111111111111111111111111111
+`;
+            case "image1":
+            case "NUM_1":return img`
+1 1 1 1 1 1 1 1 1 1 1 1 
+1 2 2 2 2 2 2 2 2 2 2 1 
+1 2 2 2 2 c c 2 2 2 2 1 
+1 2 2 2 c 2 c 2 2 2 2 1 
+1 2 2 2 2 2 c 2 2 2 2 1 
+1 2 2 2 2 2 c 2 2 2 2 1 
+1 2 2 2 2 2 c 2 2 2 2 1 
+1 2 2 2 2 2 c 2 2 2 2 1 
+1 2 2 2 2 2 c 2 2 2 2 1 
+1 2 2 2 c c c c 2 2 2 1 
+1 2 2 2 2 2 2 2 2 2 2 1 
+1 1 1 1 1 1 1 1 1 1 1 1 
 `;
         }
         return null;
